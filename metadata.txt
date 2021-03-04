@@ -1,11 +1,13 @@
 ---
 title:
 - type: main
-  text: Pay Off
+  text: Guitar Songs
+- type: subtitle
+  text: Songs for the guitar or whatever
 creator:
 - role: author
-  text: Dan Ariely
-description: The Hidden Logic that Shapes our Motivation
+  text: Paul M. Christian
+description: Lyrics and chords for songs
 rights: Commercial
 language: en-US
 stylesheet: epub.css

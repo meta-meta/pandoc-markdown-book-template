@@ -25,6 +25,11 @@ brew install pandoc
 2. Replace contents of `metadata.txt`, `contents.markdown`, and `cover.jpg` with your own content.
 3. Create your book with the following syntax:
 ```bash
-pandoc -S --toc --epub-embed-font='fonts/*.ttf' -o book.epub metadata.txt contents.markdown
+$ pandoc --toc --epub-embed-font='fonts/*.ttf' -o book.epub --verbose metadata.txt contents/*.md
+
+$  java -jar epubcheck-4.2.4/epubcheck.jar book.epub
 ```
 Your book will be exported as `book.epub`.
+
+### Convert to AZW3 with Calibre
+Check "disable font rescaling"
